@@ -7,6 +7,6 @@ This makes it possible to utilize a URLClassLoader to dynamically custom modules
 ## To make it work
 1. Make a new module ending with "-mod" ( An example module is already included )
 2. Then run the command: ./gradlew lwjgl3:build
-3. And look inside the lwjgl3/build/distributions folder. Here you can see the bin folder that contains a .bat file to run your game, and a lib folder that contains all your modules and dependencies.
+3. And look inside the lwjgl3/build/distributions folder. Here you can see a .zip file. This file has the bin folder that contains a .bat file to run your game, and a lib folder that contains all your modules and dependencies.
 
 Easy!!!
